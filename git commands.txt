@@ -49,6 +49,6 @@ git add .
 
 git commit -m " your message "
 
-git push 
+git push origin (your branch , here it's the one you chose earlier , let's say new-branche ) : git push origin new-branche
 
 for further skills , check out youtube for merge and fork 
