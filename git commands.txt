@@ -1,0 +1,54 @@
+1- go to your git account via browser and create a new repository : pic 1
+2- set up your repo information : name ( required ) and discription ( optional , just for clrification ) and set visibility to others ( private or public ) : pic 2
+3-click on create repo in the bottom 
+4-make a folder on your computer to link the repo on git hub to your local repo in pc 
+
+  inside the folder : make changes like add a new .txt file , call it whatever yo want 
+  
+  inside the folder : right click : open git bash , then :
+
+  use the commands in the first commands jpg :
+  
+  git init
+
+  git add .
+
+  git commit -m "your message , exemple : first commit"
+
+  you will have the master branch , you can choose to change it into main or whatever , lets change it to main : git branch -M main
+  
+  link your local repo to your remote repo with : git remote add origin (link to your repo , usually you'll find it like this "https://github.com/iman-yakoubi/Project-alpha.git" ) , we will use this example : git remote add origin https://github.com/iman-yakoubi/Project-alpha.git
+  
+  finally , git push -u origin ( your branch , here we have main : git push -u origin main
+  
+
+you've finished setting up the git repo the first time ... 
+
+
+-----------------------------------------------------------------------------------------
+
+already existing repo : you can use the same first commands jpg 
+or .
+use git clone : pic 3 - pic 4
+
+then go into the folder and git bash there ; you'll be in the project 
+
+git bash there  
+
+choose a branche : 
+
+git checkout (  existing branche ) : git checkout existing-branche
+or
+git checkout -b ( new branche ) : git checkout -b new-branche
+
+do your work and then : 
+
+git status 
+
+git add .
+
+git commit -m " your message "
+
+git push 
+
+for further skills , check out youtube for merge and fork 
